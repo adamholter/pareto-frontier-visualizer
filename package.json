@@ -1,0 +1,49 @@
+{
+  "name": "pareto-frontier-visualizer",
+  "version": "0.1.0",
+  "description": "Interactive and video-ready Pareto frontier visualizer for model benchmark cost/performance data.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adamholter/pareto-frontier-visualizer.git"
+  },
+  "keywords": [
+    "pareto-frontier",
+    "model-benchmarks",
+    "ai-tools",
+    "data-visualization",
+    "remotion",
+    "vite"
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "video:preview": "remotion preview src/remotion/index.ts",
+    "video:render": "remotion render src/remotion/index.ts ParetoFrontier out/pareto-frontier.mp4"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.457",
+    "@remotion/cli": "^4.0.457",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "remotion": "^4.0.457",
+    "simple-icons": "^16.18.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^24.12.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^10.2.1",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.5.0",
+    "typescript": "~6.0.2",
+    "typescript-eslint": "^8.58.2",
+    "vite": "^8.0.10"
+  }
+}
