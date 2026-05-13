@@ -117,7 +117,7 @@ export function ParetoVideo() {
   return (
     <AbsoluteFill style={styles.page}>
       <div style={styles.statusStrip}>
-        <div style={styles.kicker}>Pareto frontier over time</div>
+        <div style={styles.kicker}>Models worth paying for</div>
         <div style={styles.date}>{formatDate(selected.date)}</div>
         <div style={styles.summary}>{selected.frontier.length} frontier models · {selected.available.length} released models</div>
       </div>
@@ -181,7 +181,7 @@ export function ParetoVideo() {
         <div style={styles.rail}>
           <div style={{ ...styles.railFill, width: `${progress * 100}%` }} />
         </div>
-        <div style={styles.footer}>Only Pareto-optimal models shown · source rows cleaned for valid release date, cost, and intelligence</div>
+        <div style={styles.footer}>Only the best price/performance tradeoffs stay on the line</div>
       </div>
     </AbsoluteFill>
   )

@@ -1,21 +1,21 @@
 name,short_name,slug,creator,creator_color,reasoning,release_date,intelligence_index,cost_to_run,cost_input,cost_reasoning,cost_answer,output_tokens,is_open_weights,size_class,deprecated
-Alpha Scout 1,Scout 1,alpha-scout-1,Lab Alpha,#2f6fed,false,2024-01-15,42.1,18.4,14.2,0,4.2,1250000,true,Small,true
-Alpha Scout 2,Scout 2,alpha-scout-2,Lab Alpha,#2f6fed,false,2024-05-20,49.8,12.6,9.7,0,2.9,1410000,true,Small,false
-Alpha Reason 1,Reason 1,alpha-reason-1,Lab Alpha,#2f6fed,true,2025-02-03,67.4,98.5,35.1,42.8,20.6,1820000,false,Large,false
-Beacon Lite,Beacon Lite,beacon-lite,Beacon Systems,#e15b3f,false,2024-03-02,39.2,4.8,3.9,0,0.9,990000,true,Tiny,false
-Beacon Core,Beacon Core,beacon-core,Beacon Systems,#e15b3f,false,2024-09-12,53.7,15.2,11.8,0,3.4,1500000,true,Medium,false
-Beacon Core 2,Beacon Core 2,beacon-core-2,Beacon Systems,#e15b3f,false,2025-05-07,61.8,10.4,7.6,0,2.8,1750000,true,Medium,false
-Beacon Reason,Beacon Reason,beacon-reason,Beacon Systems,#e15b3f,true,2025-10-21,72.5,74.3,22.5,37.2,14.6,2300000,false,Large,false
-Cobalt Mini,Cobalt Mini,cobalt-mini,Cobalt AI,#7a5cff,false,2024-02-26,35.9,2.2,1.6,0,0.6,860000,true,Tiny,true
-Cobalt Flash,Cobalt Flash,cobalt-flash,Cobalt AI,#7a5cff,false,2024-11-18,57.6,6.9,5.1,0,1.8,1680000,true,Small,false
-Cobalt Ultra,Cobalt Ultra,cobalt-ultra,Cobalt AI,#7a5cff,false,2025-07-14,69.1,31.5,25.4,0,6.1,2140000,false,Large,false
-Delta Nano,Delta Nano,delta-nano,Delta Research,#16a085,false,2024-04-08,44.6,1.9,1.3,0,0.6,1130000,true,Tiny,false
-Delta Edge,Delta Edge,delta-edge,Delta Research,#16a085,false,2024-12-05,58.4,3.8,2.7,0,1.1,1620000,true,Small,false
-Delta Edge 2,Delta Edge 2,delta-edge-2,Delta Research,#16a085,false,2025-08-29,64.9,3.1,2.3,0,0.8,1900000,true,Small,false
-Delta Deep,Delta Deep,delta-deep,Delta Research,#16a085,true,2026-01-18,78.6,52.2,18.4,24.7,9.1,2600000,false,Large,false
-Echo Base,Echo Base,echo-base,Echo Labs,#f0a202,false,2024-06-03,48.3,8.5,6.8,0,1.7,1310000,true,Small,false
-Echo Base 2,Echo Base 2,echo-base-2,Echo Labs,#f0a202,false,2025-03-30,60.2,8.1,6.2,0,1.9,1710000,true,Medium,false
-Echo Pro,Echo Pro,echo-pro,Echo Labs,#f0a202,true,2025-11-11,74.9,38.7,14.6,15.4,8.7,2440000,false,Large,false
-Forge Compact,Forge Compact,forge-compact,Forge Model Co,#34495e,false,2024-08-19,51.1,5.6,4.4,0,1.2,1380000,true,Small,false
-Forge Compact 2,Forge Compact 2,forge-compact-2,Forge Model Co,#34495e,false,2025-06-24,63.5,5.2,4.1,0,1.1,1790000,true,Small,false
-Forge Max,Forge Max,forge-max,Forge Model Co,#34495e,true,2026-02-09,82.1,84.6,27.2,43.5,13.9,2900000,false,Large,false
+Pocket Rocket 1,Pocket Rocket,pocket-rocket-1,Northstar Labs,#2f6fed,false,2024-01-15,42.1,18.4,14.2,0,4.2,1250000,true,Small,true
+Pocket Rocket 2,Pocket Rocket 2,pocket-rocket-2,Northstar Labs,#2f6fed,false,2024-05-20,49.8,12.6,9.7,0,2.9,1410000,true,Small,false
+Deep Ledger,Deep Ledger,deep-ledger,Northstar Labs,#2f6fed,true,2025-02-03,67.4,98.5,35.1,42.8,20.6,1820000,false,Large,false
+Tiny Titan,Tiny Titan,tiny-titan,Relay AI,#e15b3f,false,2024-03-02,39.2,4.8,3.9,0,0.9,990000,true,Tiny,false
+Sharp Scout,Sharp Scout,sharp-scout,Relay AI,#e15b3f,false,2024-09-12,53.7,15.2,11.8,0,3.4,1500000,true,Medium,false
+Sharp Scout 2,Sharp Scout 2,sharp-scout-2,Relay AI,#e15b3f,false,2025-05-07,61.8,10.4,7.6,0,2.8,1750000,true,Medium,false
+Reasoning Engine,Reasoning Engine,reasoning-engine,Relay AI,#e15b3f,true,2025-10-21,72.5,74.3,22.5,37.2,14.6,2300000,false,Large,false
+Shoebox Model,Shoebox,shoebox-model,Quartz Works,#7a5cff,false,2024-02-26,35.9,2.2,1.6,0,0.6,860000,true,Tiny,true
+Fast Thinker,Fast Thinker,fast-thinker,Quartz Works,#7a5cff,false,2024-11-18,57.6,6.9,5.1,0,1.8,1680000,true,Small,false
+Signal Cannon,Signal Cannon,signal-cannon,Quartz Works,#7a5cff,false,2025-07-14,69.1,31.5,25.4,0,6.1,2140000,false,Large,false
+Budget Brain,Budget Brain,budget-brain,Signal Forge,#16a085,false,2024-04-08,44.6,1.9,1.3,0,0.6,1130000,true,Tiny,false
+Budget Brain Pro,Budget Brain Pro,budget-brain-pro,Signal Forge,#16a085,false,2024-12-05,58.4,3.8,2.7,0,1.1,1620000,true,Small,false
+Pocket Oracle,Pocket Oracle,pocket-oracle,Signal Forge,#16a085,false,2025-08-29,64.9,3.1,2.3,0,0.8,1900000,true,Small,false
+Deep Focus,Deep Focus,deep-focus,Signal Forge,#16a085,true,2026-01-18,78.6,52.2,18.4,24.7,9.1,2600000,false,Large,false
+Everyday Genius,Everyday Genius,everyday-genius,Axiom Models,#f0a202,false,2024-06-03,48.3,8.5,6.8,0,1.7,1310000,true,Small,false
+Everyday Genius 2,Genius 2,everyday-genius-2,Axiom Models,#f0a202,false,2025-03-30,60.2,8.1,6.2,0,1.9,1710000,true,Medium,false
+Heavy Thinker,Heavy Thinker,heavy-thinker,Axiom Models,#f0a202,true,2025-11-11,74.9,38.7,14.6,15.4,8.7,2440000,false,Large,false
+Street Scholar,Street Scholar,street-scholar,Forge Model Co,#34495e,false,2024-08-19,51.1,5.6,4.4,0,1.2,1380000,true,Small,false
+Street Scholar 2,Scholar 2,street-scholar-2,Forge Model Co,#34495e,false,2025-06-24,63.5,5.2,4.1,0,1.1,1790000,true,Small,false
+Frontier Hammer,Frontier Hammer,frontier-hammer,Forge Model Co,#34495e,true,2026-02-09,82.1,84.6,27.2,43.5,13.9,2900000,false,Large,false

@@ -1,18 +1,22 @@
 # Pareto Frontier Visualizer
 
-An interactive React + TypeScript visualizer for showing which models, tools, or
-products are currently Pareto-optimal across two dimensions: higher score and
-lower cost.
+Stop asking which model is best. Ask which one is worth its price.
 
-The demo dataset uses AI model benchmark-style rows, but the app is deliberately
-generic. Swap in any CSV with a release date, cost metric, score metric, owner,
-and display color.
+![Screenshot of the Pareto Frontier Visualizer showing the best model tradeoffs](./docs/pareto-frontier-social.png)
+
+This React + TypeScript app turns a plain CSV into a clean cost/performance map.
+It shows which models, tools, or products are currently Pareto-optimal across two
+dimensions: higher score and lower cost.
+
+The included dataset is synthetic, but the pattern is deliberately generic. Swap
+in any CSV with a release date, cost metric, score metric, owner, and display
+color.
 
 ## What It Does
 
 - Parses a CSV at build time.
 - Filters rows with invalid dates, missing scores, or non-positive costs.
-- Computes the Pareto frontier for every release-date cutoff.
+- Computes the "worth paying for" frontier for every release-date cutoff.
 - Animates the frontier over time with a slider or play button.
 - Shows branded points with `simple-icons` where available.
 - Includes a Remotion composition for rendering a vertical social video.

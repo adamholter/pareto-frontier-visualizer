@@ -67,8 +67,9 @@ function App() {
   const parsed = useMemo(() => parseData(csvText), [])
   const frontierByDate = useMemo(() => getFrontierTimeline(parsed.rows), [parsed.rows])
   const startIndex = useMemo(() => getStartIndex(frontierByDate), [frontierByDate])
+  const latestIndex = Math.max(startIndex, frontierByDate.length - 1)
 
-  const [dateIndex, setDateIndex] = useState(startIndex)
+  const [dateIndex, setDateIndex] = useState(latestIndex)
   const [isPlaying, setIsPlaying] = useState(false)
   const [tooltip, setTooltip] = useState<TooltipState | null>(null)
   const animatedIndex = useAnimatedNumber(dateIndex)
@@ -128,25 +129,25 @@ function App() {
     <main className="shell">
       <header className="topbar">
         <div>
-          <p className="eyeline">Pareto frontier</p>
-          <h1>Intelligence vs. run cost</h1>
+          <p className="eyeline">Cost/performance map</p>
+          <h1>Find the models worth paying for</h1>
         </div>
         <div className="stats" aria-label="Current selection summary">
           <div>
             <span>{selected ? formatDate(selected.date) : 'No date'}</span>
-            <small>release cutoff</small>
+            <small>market snapshot</small>
           </div>
           <div>
             <span>{selected?.frontier.length ?? 0}</span>
-            <small>frontier models</small>
+            <small>best deals</small>
           </div>
           <div>
             <span>{selected?.available.length ?? 0}</span>
-            <small>available models</small>
+            <small>models tested</small>
           </div>
           <div>
             <span>{creatorCount}</span>
-            <small>creators</small>
+            <small>labs compared</small>
           </div>
         </div>
       </header>
@@ -155,9 +156,9 @@ function App() {
         <div className="chartPanel">
           <div className="chartHeader">
             <div>
-              <h2>Optimal cost/performance frontier</h2>
+              <h2>The best tradeoffs rise to the line</h2>
               <p>
-                Only models undominated by any model released by the selected date are shown.
+                Every point on the frontier beats the field on price, performance, or both.
                 {parsed.filteredCount > 0 ? ` ${parsed.filteredCount} source rows were filtered during cleanup.` : ''}
               </p>
             </div>
@@ -289,8 +290,8 @@ function App() {
 
         <aside className="frontierList" aria-label="Current frontier model list">
           <div className="listTitle">
-            <h2>Frontier models</h2>
-            <span>low cost to high cost</span>
+            <h2>Worth a closer look</h2>
+            <span>cheapest edge to premium power</span>
           </div>
           <ol>
             {selected?.frontier.map((model) => {

@@ -1,7 +1,7 @@
 {
   "name": "pareto-frontier-visualizer",
   "version": "0.1.0",
-  "description": "Interactive and video-ready Pareto frontier visualizer for model benchmark cost/performance data.",
+  "description": "A screenshot-ready Pareto frontier app for finding the models worth paying for.",
   "license": "MIT",
   "repository": {
     "type": "git",
