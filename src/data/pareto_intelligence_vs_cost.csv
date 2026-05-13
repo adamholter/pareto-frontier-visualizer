@@ -1,21 +1,265 @@
 name,short_name,slug,creator,creator_color,reasoning,release_date,intelligence_index,cost_to_run,cost_input,cost_reasoning,cost_answer,output_tokens,is_open_weights,size_class,deprecated
-Pocket Rocket 1,Pocket Rocket,pocket-rocket-1,Northstar Labs,#2f6fed,false,2024-01-15,42.1,18.4,14.2,0,4.2,1250000,true,Small,true
-Pocket Rocket 2,Pocket Rocket 2,pocket-rocket-2,Northstar Labs,#2f6fed,false,2024-05-20,49.8,12.6,9.7,0,2.9,1410000,true,Small,false
-Deep Ledger,Deep Ledger,deep-ledger,Northstar Labs,#2f6fed,true,2025-02-03,67.4,98.5,35.1,42.8,20.6,1820000,false,Large,false
-Tiny Titan,Tiny Titan,tiny-titan,Relay AI,#e15b3f,false,2024-03-02,39.2,4.8,3.9,0,0.9,990000,true,Tiny,false
-Sharp Scout,Sharp Scout,sharp-scout,Relay AI,#e15b3f,false,2024-09-12,53.7,15.2,11.8,0,3.4,1500000,true,Medium,false
-Sharp Scout 2,Sharp Scout 2,sharp-scout-2,Relay AI,#e15b3f,false,2025-05-07,61.8,10.4,7.6,0,2.8,1750000,true,Medium,false
-Reasoning Engine,Reasoning Engine,reasoning-engine,Relay AI,#e15b3f,true,2025-10-21,72.5,74.3,22.5,37.2,14.6,2300000,false,Large,false
-Shoebox Model,Shoebox,shoebox-model,Quartz Works,#7a5cff,false,2024-02-26,35.9,2.2,1.6,0,0.6,860000,true,Tiny,true
-Fast Thinker,Fast Thinker,fast-thinker,Quartz Works,#7a5cff,false,2024-11-18,57.6,6.9,5.1,0,1.8,1680000,true,Small,false
-Signal Cannon,Signal Cannon,signal-cannon,Quartz Works,#7a5cff,false,2025-07-14,69.1,31.5,25.4,0,6.1,2140000,false,Large,false
-Budget Brain,Budget Brain,budget-brain,Signal Forge,#16a085,false,2024-04-08,44.6,1.9,1.3,0,0.6,1130000,true,Tiny,false
-Budget Brain Pro,Budget Brain Pro,budget-brain-pro,Signal Forge,#16a085,false,2024-12-05,58.4,3.8,2.7,0,1.1,1620000,true,Small,false
-Pocket Oracle,Pocket Oracle,pocket-oracle,Signal Forge,#16a085,false,2025-08-29,64.9,3.1,2.3,0,0.8,1900000,true,Small,false
-Deep Focus,Deep Focus,deep-focus,Signal Forge,#16a085,true,2026-01-18,78.6,52.2,18.4,24.7,9.1,2600000,false,Large,false
-Everyday Genius,Everyday Genius,everyday-genius,Axiom Models,#f0a202,false,2024-06-03,48.3,8.5,6.8,0,1.7,1310000,true,Small,false
-Everyday Genius 2,Genius 2,everyday-genius-2,Axiom Models,#f0a202,false,2025-03-30,60.2,8.1,6.2,0,1.9,1710000,true,Medium,false
-Heavy Thinker,Heavy Thinker,heavy-thinker,Axiom Models,#f0a202,true,2025-11-11,74.9,38.7,14.6,15.4,8.7,2440000,false,Large,false
-Street Scholar,Street Scholar,street-scholar,Forge Model Co,#34495e,false,2024-08-19,51.1,5.6,4.4,0,1.2,1380000,true,Small,false
-Street Scholar 2,Scholar 2,street-scholar-2,Forge Model Co,#34495e,false,2025-06-24,63.5,5.2,4.1,0,1.1,1790000,true,Small,false
-Frontier Hammer,Frontier Hammer,frontier-hammer,Forge Model Co,#34495e,true,2026-02-09,82.1,84.6,27.2,43.5,13.9,2900000,false,Large,false
+Claude 3 Haiku,Claude 3 Haiku,claude-3-haiku,Anthropic,#cc785c,false,2024-03-04,12.26,36.43772225,32.58455475,0,3.8531675,3082534,false,Medium,true
+Llama 3.1 Instruct 8B,Llama 3.1 8B,llama-3-1-instruct-8b,Meta,#0089f4,false,2024-07-23,11.76,5.74893062,5.4378866,0,0.31104402,5184067,true,Small,true
+Llama 3.1 Instruct 70B,Llama 3.1 70B,llama-3-1-instruct-70b,Meta,#0089f4,false,2024-07-23,12.47,177.77412216,174.4085556,0,3.36556656,4674398,true,Medium,true
+Llama 3.1 Instruct 405B,Llama 3.1 405B,llama-3-1-instruct-405b,Meta,#0089f4,false,2024-07-23,17.38,898.311069,886.633674,0,11.677395,3892465,true,Large,false
+GPT-4o (Aug '24),GPT-4o (Aug),gpt-4o-2024-08-06,OpenAI,#1f1f1f,false,2024-08-06,18.64,221.0257575,191.8928975,0,29.13286,2913286,false,Large,true
+Llama 3.1 Nemotron Instruct 70B,Llama 3.1 Nemotron 70B,llama-3-1-nemotron-instruct-70b,NVIDIA,#86b737,false,2024-10-15,13.44,73.535496,68.9363112,0,4.5991848,3832654,true,Medium,false
+Claude 3.5 Haiku,Claude 3.5 Haiku,claude-3-5-haiku,Anthropic,#cc785c,false,2024-10-22,18.66,56.516124,47.418828,0,9.097296,2274324,false,Large,true
+Mistral Large 2 (Nov '24),Mistral Large 2 (Nov),mistral-large-2,Mistral,#fd6f00,false,2024-11-18,15.09,124.14925,108.410314,0,15.738936,2623156,true,Medium,true
+GPT-4o (Nov '24),GPT-4o (Nov),gpt-4o,OpenAI,#1f1f1f,false,2024-11-20,17.32,196.974515,170.248045,0,26.72647,2672647,false,Large,true
+Nova Micro,Nova Micro,nova-micro,Amazon,#FF9900,false,2024-12-03,10.27,6.38476695,5.38781898,0,0.99694798,7121057,false,Small,false
+Nova Lite,Nova Lite,nova-lite,Amazon,#FF9900,false,2024-12-03,12.65,21.16472418,19.47991002,0,1.68481416,7020059,false,Small,true
+Nova Pro,Nova Pro,nova-pro,Amazon,#FF9900,false,2024-12-03,13.48,200.984304,186.8123264,0,14.1719776,4428743,false,Large,true
+o1,o1,o1,OpenAI,#1f1f1f,true,2024-12-05,30.75,3270.35733,1160.83377,1922.38056,187.143,35158726,false,Large,true
+Llama 3.3 Instruct 70B,Llama 3.3 70B,llama-3-3-instruct-70b,Meta,#0089f4,false,2024-12-06,14.49,90.2794296,85.6773228,0,4.6021068,3835089,true,Medium,false
+DeepSeek V3 (Dec '24),DeepSeek V3 (Dec),deepseek-v3,DeepSeek,#2243e6,false,2024-12-26,16.46,79.7080125,76.456105,0,3.2519075,2601526,true,Large,true
+DeepSeek R1 (Jan '25),DeepSeek R1 (Jan),deepseek-r1-0120,DeepSeek,#2243e6,true,2025-01-20,18.84,1696.112246,1571.548186,80.967438,43.596622,62282030,true,Large,true
+o3-mini (high),o3-mini (high),o3-mini-high,OpenAI,#1f1f1f,true,2025-01-31,25.21,314.7215258,45.7838502,256.95747,11.9802056,61122199,false,Large,true
+Gemini 2.0 Flash (Feb '25),Gemini 2.0 Flash,gemini-2-0-flash,Google,#34A853,false,2025-02-05,18.51,18.85624695,15.84607995,0,3.010167,5016945,false,Medium,true
+Grok 3,Grok 3,grok-3,xAI,#736cd3,false,2025-02-19,25.17,311.705406,232.585476,0,79.11993,5274662,false,Large,true
+Grok 3 mini Reasoning (high),Grok 3 mini Reasoning (high),grok-3-mini-reasoning,xAI,#736cd3,true,2025-02-19,32.08,104.8919487,54.9660822,47.3431735,2.582693,99851733,false,Medium,false
+Claude 3.7 Sonnet (Non-reasoning),Claude 3.7 Sonnet,claude-3-7-sonnet,Anthropic,#cc785c,false,2025-02-24,30.81,524.7573,441.219975,0,83.537325,5569155,false,Large,true
+Gemma 3 4B Instruct,Gemma 3 4B,gemma-3-4b,Google,#34A853,false,2025-03-12,6.3,6.51804948,6.2112734,0,0.30677608,3834701,true,Tiny,true
+Gemma 3 12B Instruct,Gemma 3 12B,gemma-3-12b,Google,#34A853,false,2025-03-12,8.79,8.96752725,8.27275564,0,0.69477161,5344397,true,Small,true
+Gemma 3 27B Instruct,Gemma 3 27B,gemma-3-27b,Google,#34A853,false,2025-03-12,10.31,20.93120828,20.13398128,0,0.797227,3986135,true,Small,true
+Command A,Command A,command-a,Cohere,#D18EE2,false,2025-03-13,13.48,299.181555,260.724695,0,38.45686,3845686,true,Medium,false
+Mistral Small 3.1,Mistral Small 3.1,mistral-small-3-1,Mistral,#fd6f00,false,2025-03-17,14.48,46.0946421,44.6812752,0,1.4133669,4711223,true,Small,true
+DeepSeek V3 0324,DeepSeek V3 0324,deepseek-v3-0324,DeepSeek,#2243e6,false,2025-03-25,22.28,69.88183812,51.78914436,0,18.09269376,3967696,true,Large,true
+Llama 4 Scout,Llama 4 Scout,llama-4-scout,Meta,#0089f4,false,2025-04-05,13.52,27.17867148,22.85051526,0,4.32815622,7335858,true,Medium,false
+Llama 4 Maverick,Llama 4 Maverick,llama-4-maverick,Meta,#0089f4,false,2025-04-05,18.36,66.84823446,55.35083925,0,11.49739521,8154181,true,Large,false
+Llama 3.1 Nemotron Ultra 253B v1 (Reasoning),Llama Nemotron Ultra,llama-3-1-nemotron-ultra-253b-v1-reasoning,NVIDIA,#86b737,true,2025-04-07,15.02,486.8198586,401.5593972,58.8370392,26.4234222,47366923,true,Large,false
+GPT-4.1 mini,GPT-4.1 mini,gpt-4-1-mini,OpenAI,#1f1f1f,false,2025-04-14,22.9,53.7334464,46.369512,0,7.3639344,4602459,false,Medium,true
+GPT-4.1 nano,GPT-4.1 nano,gpt-4-1-nano,OpenAI,#1f1f1f,false,2025-04-14,13.04,31.0257939,28.9282811,0,2.0975128,5243782,false,Medium,true
+GPT-4.1,GPT-4.1,gpt-4-1,OpenAI,#1f1f1f,false,2025-04-14,26.28,277.806692,241.814804,0,35.991888,4498986,false,Large,true
+Granite 3.3 8B (Non-reasoning),Granite 3.3 8B,granite-3-3-8b-instruct,IBM,#0f62fe,false,2025-04-16,7,13.36325524,11.29906374,0,2.0641915,8256766,true,Small,true
+o4-mini (high),o4-mini (high),o4-mini,OpenAI,#1f1f1f,true,2025-04-16,33.06,460.8724296,98.3257176,348.164278,14.382434,82396980,false,Large,true
+o3,o3,o3,OpenAI,#1f1f1f,true,2025-04-16,38.37,1025.331978,638.527306,327.505312,59.29936,48350584,false,Large,false
+Qwen3 0.6B (Non-reasoning),Qwen3 0.6B,qwen3-0.6b-instruct,Alibaba,#ff7018,false,2025-04-28,5.68,21.34266668,20.13371558,0,1.2089511,2878455,true,Tiny,true
+Qwen3 0.6B (Reasoning),Qwen3 0.6B,qwen3-0.6b-instruct-reasoning,Alibaba,#ff7018,true,2025-04-28,6.47,30.4182244,5.8349566,20.00818386,4.57508394,19510530,true,Tiny,true
+Qwen3 1.7B (Non-reasoning),Qwen3 1.7B,qwen3-1.7b-instruct,Alibaba,#ff7018,false,2025-04-28,6.76,15.77048986,13.91790136,0,1.8525885,4410925,true,Tiny,true
+Qwen3 1.7B (Reasoning),Qwen3 1.7B,qwen3-1.7b-instruct-reasoning,Alibaba,#ff7018,true,2025-04-28,7.96,52.53470518,6.24219178,30.37889988,15.91361352,36740090,true,Tiny,true
+Qwen3 8B (Non-reasoning),Qwen3 8B,qwen3-8b-instruct,Alibaba,#ff7018,false,2025-04-28,10.63,40.60961296,32.38373376,0,8.2258792,11751256,true,Small,true
+Qwen3 30B A3B (Non-reasoning),Qwen3 30B,qwen3-30b-a3b-instruct,Alibaba,#ff7018,false,2025-04-28,12.53,27.1730446,24.7320966,0,2.440948,3051185,true,Small,true
+Qwen3 14B (Non-reasoning),Qwen3 14B,qwen3-14b-instruct,Alibaba,#ff7018,false,2025-04-28,12.76,28.8358553,22.1843503,0,6.651505,4751075,true,Small,true
+Qwen3 8B (Reasoning),Qwen3 8B,qwen3-8b-instruct-reasoning,Alibaba,#ff7018,true,2025-04-28,13.18,94.24860306,13.33544346,77.3652348,3.5479248,38530076,true,Small,true
+Qwen3 30B A3B (Reasoning),Qwen3 30B,qwen3-30b-a3b-instruct-reasoning,Alibaba,#ff7018,true,2025-04-28,15.28,97.396128,20.2468776,70.3786248,6.7706256,32145521,true,Small,true
+Qwen3 14B (Reasoning),Qwen3 14B,qwen3-14b-instruct-reasoning,Alibaba,#ff7018,true,2025-04-28,16.19,129.25753715,20.26811675,99.0906798,9.8987406,25949862,true,Small,true
+Qwen3 32B (Reasoning),Qwen3 32B,qwen3-32b-instruct-reasoning,Alibaba,#ff7018,true,2025-04-28,16.53,321.1391666,70.131131,227.9481708,23.0598648,29881909,true,Small,true
+Qwen3 235B A22B (Non-reasoning),Qwen3 235B,qwen3-235b-a22b-instruct,Alibaba,#ff7018,false,2025-04-28,16.96,161.2667147,149.7872075,0,11.4795072,4099824,true,Large,true
+Qwen3 235B A22B (Reasoning),Qwen3 235B,qwen3-235b-a22b-instruct-reasoning,Alibaba,#ff7018,true,2025-04-28,19.79,396.0858181,141.0834565,221.0526528,33.9497088,30357424,true,Large,true
+Nova Premier,Nova Premier,nova-premier,Amazon,#FF9900,false,2025-04-30,19.01,375.97911,322.874785,0,53.104325,4248346,false,Large,false
+Mistral Medium 3,Mistral Medium 3,mistral-medium-3,Mistral,#fd6f00,false,2025-05-07,18.76,40.2362304,32.3336504,0,7.90258,3951290,false,Medium,true
+Gemini 2.5 Flash (Non-reasoning),Gemini 2.5 Flash,gemini-2-5-flash,Google,#34A853,false,2025-05-20,20.56,84.2727097,40.5713772,0,43.7013325,17480533,false,Medium,true
+Gemini 2.5 Flash (Reasoning),Gemini 2.5 Flash,gemini-2-5-flash-reasoning,Google,#34A853,true,2025-05-20,27.04,171.9475747,41.2313847,106.025985,24.690205,52286476,false,Medium,true
+Claude 4 Sonnet (Non-reasoning),Claude 4 Sonnet,claude-4-sonnet,Anthropic,#cc785c,false,2025-05-22,33,568.273785,478.51863,0,89.755155,5983677,false,Large,true
+Claude 4 Sonnet (Reasoning),Claude 4 Sonnet,claude-4-sonnet-thinking,Anthropic,#cc785c,true,2025-05-22,38.66,1348.9803525,516.9675675,738.884655,93.12813,55467519,false,Large,true
+DeepSeek R1 0528 (May '25),DeepSeek R1 0528,deepseek-r1,DeepSeek,#2243e6,true,2025-05-28,27.07,161.0762745,38.2093845,111.278755,11.588135,49146756,true,Large,false
+Gemini 2.5 Pro,Gemini 2.5 Pro,gemini-2-5-pro,Google,#34A853,true,2025-06-05,34.63,648.3154525,102.0614125,491.62377,54.63027,54625404,false,Large,false
+Gemini 2.5 Flash-Lite (Non-reasoning),Gemini 2.5 Flash-Lite,gemini-2-5-flash-lite,Google,#34A853,false,2025-06-17,12.66,29.8749326,15.6296826,0,14.24525,35613125,false,Medium,true
+Gemini 2.5 Flash-Lite (Reasoning),Gemini 2.5 Flash-Lite,gemini-2-5-flash-lite-reasoning,Google,#34A853,true,2025-06-17,17.57,77.8559344,34.8119276,33.4207616,9.6232452,107610017,false,Medium,true
+MiniMax M1 80k,MiniMax M1 80k,minimax-m1-80k,MiniMax,#EB3568,true,2025-06-17,24.43,114.9730153,61.4474795,41.5915676,11.9339682,24329789,true,Large,true
+Mistral Small 3.2,Mistral Small 3.2,mistral-small-3-2,Mistral,#fd6f00,false,2025-06-20,15.07,21.971349,20.610228,0,1.361121,4537070,true,Small,true
+Gemma 3n E4B Instruct,Gemma 3n E4B,gemma-3n-e4b,Google,#34A853,false,2025-06-26,6.38,5.72149956,5.30164768,0,0.41985188,10496297,true,Small,true
+Jamba 1.7 Large,Jamba 1.7 Large,jamba-1-7-large,AI21 Labs,#d63864,false,2025-07-07,10.88,965.334858,900.683178,0,64.65168,8081460,true,Large,false
+Devstral Small (Jul '25),Devstral Small,devstral-small,Mistral,#fd6f00,false,2025-07-10,15.21,23.1025884,21.7761774,0,1.326411,4421370,true,Small,true
+Devstral Medium,Devstral Medium,devstral-medium,Mistral,#fd6f00,false,2025-07-10,18.66,67.392556,60.577322,0,6.815234,3407617,false,Medium,true
+Grok 4,Grok 4,grok-4,xAI,#736cd3,true,2025-07-10,41.52,1571.537406,245.156331,1275.931725,50.44935,88425405,false,Large,true
+Kimi K2,Kimi K2,kimi-k2,Kimi,#047AFE,false,2025-07-11,26.32,185.8808334,157.1269434,0,28.75389,11501556,true,Large,true
+Qwen3 235B A22B 2507 Instruct,Qwen3 235B 2507,qwen3-235b-a22b-instruct-2507,Alibaba,#ff7018,false,2025-07-21,24.96,250.0360156,208.6966392,0,41.3393764,14764063,true,Large,true
+Qwen3 Coder 480B A35B Instruct,Qwen3 Coder 480B,qwen3-coder-480b-a35b-instruct,Alibaba,#ff7018,false,2025-07-22,24.77,779.1260355,711.5417355,0,67.5843,9011240,true,Large,true
+Llama Nemotron Super 49B v1.5 (Non-reasoning),Llama Nemotron Super 49B v1.5,llama-nemotron-super-49b-v1-5,NVIDIA,#86b737,false,2025-07-25,14.59,20.6852992,18.0788492,0,2.60645,6516125,true,Medium,false
+Llama Nemotron Super 49B v1.5 (Reasoning),Llama Nemotron Super 49B v1.5,llama-nemotron-super-49b-v1-5-reasoning,NVIDIA,#86b737,true,2025-07-25,18.68,37.178149,15.9682554,20.0152476,1.194646,53024734,true,Medium,false
+Qwen3 235B A22B 2507 (Reasoning),Qwen3 235B A22B 2507,qwen3-235b-a22b-instruct-2507-reasoning,Alibaba,#ff7018,true,2025-07-25,29.54,569.5080776,37.560992,509.9452596,22.001826,63327034,true,Large,true
+GLM-4.5-Air,GLM-4.5-Air,glm-4-5-air,Z AI,#1c7ff8,true,2025-07-28,23.17,80.49455906,22.08197446,55.23520538,3.17737922,67921610,true,Medium,true
+GLM-4.5 (Reasoning),GLM-4.5,glm-4.5,Z AI,#1c7ff8,true,2025-07-28,26.42,408.4953032,274.8027354,113.6761296,20.0164382,60769349,true,Large,true
+Qwen3 30B A3B 2507 Instruct,Qwen3 30B A3B 2507,qwen3-30b-a3b-2507,Alibaba,#ff7018,false,2025-07-29,15,75.440281,63.6595962,0,11.7806848,14725856,true,Small,true
+Qwen3 30B A3B 2507 (Reasoning),Qwen3 30B A3B 2507,qwen3-30b-a3b-2507-reasoning,Alibaba,#ff7018,true,2025-07-30,22.41,140.9435554,14.1286882,119.2409184,7.5739488,52839528,true,Small,true
+Qwen3 Coder 30B A3B Instruct,Qwen3 Coder 30B A3B,qwen3-coder-30b-a3b-instruct,Alibaba,#ff7018,false,2025-07-31,19.98,72.8412678,43.14034305,0,29.70092475,13200411,true,Small,true
+gpt-oss-20B (low),gpt-oss-20B (low),gpt-oss-20b-low,OpenAI,#1f1f1f,true,2025-08-05,20.79,9.11733801,6.70124126,1.76087825,0.6552185,9664387,true,Small,false
+gpt-oss-120B (low),gpt-oss-120B (low),gpt-oss-120b-low,OpenAI,#1f1f1f,true,2025-08-05,24.47,11.3687546,7.5121786,2.3043615,1.5522145,7713152,true,Medium,false
+gpt-oss-20B (high),gpt-oss-20B (high),gpt-oss-20b,OpenAI,#1f1f1f,true,2025-08-05,24.47,14.76221543,5.61273008,8.57285625,0.5766291,60996569,true,Small,false
+gpt-oss-120B (high),gpt-oss-120B (high),gpt-oss-120b,OpenAI,#1f1f1f,true,2025-08-05,33.27,106.68173725,48.40638775,55.0622925,3.213057,77700466,true,Medium,false
+GPT-5 (low),GPT-5 (low),gpt-5-low,OpenAI,#1f1f1f,true,2025-08-07,39.2,227.7876425,77.9284725,118.06467,31.7945,14985917,false,Large,true
+GPT-5 nano (minimal),GPT-5 nano (minimal),gpt-5-nano-minimal,OpenAI,#1f1f1f,false,2025-08-07,13.84,24.8812947,21.2658543,0,3.6154404,9038601,false,Small,true
+GPT-5 mini (minimal),GPT-5 mini (minimal),gpt-5-mini-minimal,OpenAI,#1f1f1f,false,2025-08-07,20.68,25.16373625,19.46003025,0,5.703706,2851853,false,Medium,true
+GPT-5 (minimal),GPT-5 (minimal),gpt-5-minimal,OpenAI,#1f1f1f,false,2025-08-07,23.89,151.72274125,111.70838125,0,40.01436,4001436,false,Large,true
+GPT-5 nano (medium),GPT-5 nano (medium),gpt-5-nano-medium,OpenAI,#1f1f1f,true,2025-08-07,25.88,25.8504293,7.7614165,16.228396,1.8606168,45222532,false,Small,true
+GPT-5 nano (high),GPT-5 nano (high),gpt-5-nano,OpenAI,#1f1f1f,true,2025-08-07,26.83,51.70582305,7.67061385,41.9586656,2.0765436,110088023,false,Small,true
+GPT-5 mini (medium),GPT-5 mini (medium),gpt-5-mini-medium,OpenAI,#1f1f1f,true,2025-08-07,38.94,61.9119005,20.7439265,34.021726,7.146248,20583987,false,Medium,true
+GPT-5 mini (high),GPT-5 mini (high),gpt-5-mini,OpenAI,#1f1f1f,true,2025-08-07,41.17,168.457701,30.612411,130.226092,7.619198,68922645,false,Medium,true
+GPT-5 (medium),GPT-5 (medium),gpt-5-medium,OpenAI,#1f1f1f,true,2025-08-07,42.03,551.724095,131.039135,375.75271,44.93225,42068496,false,Large,true
+GPT-5 (high),GPT-5 (high),gpt-5,OpenAI,#1f1f1f,true,2025-08-07,44.63,912.56087125,150.21511125,718.54085,43.80491,76234576,false,Large,true
+GLM-4.5V (Non-reasoning),GLM-4.5V,glm-4-5v,Z AI,#1c7ff8,false,2025-08-11,12.74,203.4875922,190.9761684,0,12.5114238,6950791,true,Medium,true
+GLM-4.5V (Reasoning),GLM-4.5V,glm-4-5v-reasoning,Z AI,#1c7ff8,true,2025-08-11,15.09,226.9949706,171.8154162,42.2745282,12.9050262,30655308,true,Medium,true
+Mistral Medium 3.1,Mistral Medium 3.1,mistral-medium-3-1,Mistral,#fd6f00,false,2025-08-12,21.25,51.651788,36.405026,0,15.246762,7623381,false,Medium,true
+NVIDIA Nemotron Nano 9B V2 (Non-reasoning),NVIDIA Nemotron Nano 9B V2,nvidia-nemotron-nano-9b-v2,NVIDIA,#86b737,false,2025-08-18,13.16,12.2172776,8.54733456,0,3.66994304,22937144,true,Small,false
+NVIDIA Nemotron Nano 9B V2 (Reasoning),NVIDIA Nemotron Nano 9B V2,nvidia-nemotron-nano-9b-v2-reasoning,NVIDIA,#86b737,true,2025-08-18,14.76,10.52642336,5.24443824,4.84802688,0.43395824,33012407,true,Small,false
+Seed-OSS-36B-Instruct,Seed-OSS-36B-Instruct,seed-oss-36b-instruct,ByteDance Seed,#3c8bff,true,2025-08-20,25.16,53.04652542,22.38300435,28.05226044,2.61126063,53795651,true,Small,true
+DeepSeek V3.1 (Reasoning),DeepSeek V3.1,deepseek-v3-1-reasoning,DeepSeek,#2243e6,true,2025-08-21,27.71,476.9201066,376.57467092,55.79245728,44.5529784,59729426,true,Large,true
+DeepSeek V3.1 (Non-reasoning),DeepSeek V3.1,deepseek-v3-1,DeepSeek,#2243e6,false,2025-08-21,28.13,103.49117754,87.96977682,0,15.52140072,9238929,true,Large,true
+Hermes 4 - Llama-3.1 70B (Non-reasoning),Hermes 4 70B,hermes-4-llama-3-1-70b,Nous Research,#006fa8,false,2025-08-27,12.63,29.84695475,27.30311675,0,2.543838,6359595,true,Medium,false
+Hermes 4 - Llama-3.1 405B (Non-reasoning),Hermes 4 405B,hermes-4-llama-3-1-405b,Nous Research,#006fa8,false,2025-08-27,17.63,178.696391,166.864958,0,11.831433,3943811,true,Large,false
+Grok Code Fast 1,Grok Code Fast 1,grok-code-fast-1,xAI,#736cd3,true,2025-08-28,28.74,112.3265888,17.0641658,78.223479,17.038944,63508282,false,Medium,false
+Qwen3 Max (Preview),Qwen3 Max (Preview),qwen3-max-preview,Alibaba,#ff7018,false,2025-09-05,26.08,249.5125248,202.3711488,0,47.141376,7856896,false,Large,true
+Kimi K2 0905,Kimi K2 0905,kimi-k2-0905,Kimi,#047AFE,false,2025-09-05,30.85,126.5650654,106.8547254,0,19.71034,7884136,true,Large,true
+Qwen3 Next 80B A3B Instruct,Qwen3 Next 80B A3B,qwen3-next-80b-a3b-instruct,Alibaba,#ff7018,false,2025-09-11,20.11,132.972724,103.926164,0,29.04656,14523280,true,Medium,false
+Qwen3 Next 80B A3B (Reasoning),Qwen3 Next 80B A3B,qwen3-next-80b-a3b-reasoning,Alibaba,#ff7018,true,2025-09-11,26.72,357.3420075,49.3574595,290.161986,17.822562,51330758,true,Medium,false
+Ling-flash-2.0,Ling-flash-2.0,ling-flash-2-0,InclusionAI,#4fb5ff,false,2025-09-17,15.74,16.7335587,7.90580112,0,8.82775758,15487294,true,Medium,false
+Magistral Small 1.2,Magistral Small 1.2,magistral-small-2509,Mistral,#fd6f00,true,2025-09-17,18.16,89.834539,45.83953,39.1670145,4.8279945,29330006,true,Small,false
+Magistral Medium 1.2,Magistral Medium 1.2,magistral-medium-2509,Mistral,#fd6f00,true,2025-09-18,27.1,387.098364,170.350694,201.90241,14.84526,43349534,false,Large,false
+Grok 4 Fast (Non-reasoning),Grok 4 Fast,grok-4-fast,xAI,#736cd3,false,2025-09-19,23.12,17.4480476,15.2862826,0,2.161765,4323530,false,Medium,true
+Grok 4 Fast (Reasoning),Grok 4 Fast,grok-4-fast-reasoning,xAI,#736cd3,true,2025-09-19,35.06,35.9855153,14.2776068,20.1348805,1.573028,43415817,false,Medium,true
+Qwen3 Omni 30B A3B Instruct,Qwen3 Omni 30B A3B,qwen3-omni-30b-a3b-instruct,Alibaba,#ff7018,false,2025-09-22,10.68,85.06730941,49.6685145,0,35.39879491,36493603,true,Small,false
+Granite 4.0 H Small,Granite 4.0 H Small,granite-4-0-h-small,IBM,#0f62fe,false,2025-09-22,10.81,4.48094976,3.89550276,0,0.585447,2341788,true,Small,false
+Qwen3 Omni 30B A3B (Reasoning),Qwen3 Omni 30B A3B,qwen3-omni-30b-a3b-reasoning,Alibaba,#ff7018,true,2025-09-22,15.62,132.30581902,59.88650075,66.66672454,5.75259373,74659091,true,Small,false
+DeepSeek V3.1 Terminus (Non-reasoning),DeepSeek V3.1 Terminus,deepseek-v3-1-terminus,DeepSeek,#2243e6,false,2025-09-22,28.52,40.89343934,32.80544334,0,8.087996,8087996,true,Large,true
+DeepSeek V3.1 Terminus (Reasoning),DeepSeek V3.1 Terminus,deepseek-v3-1-terminus-reasoning,DeepSeek,#2243e6,true,2025-09-22,33.93,69.04926504,26.57819304,38.675416,3.795656,42471072,true,Large,true
+Qwen3 VL 235B A22B Instruct,Qwen3 VL 235B A22B,qwen3-vl-235b-a22b-instruct,Alibaba,#ff7018,false,2025-09-23,20.75,264.1905119,234.1243247,0,30.0661872,10737924,true,Large,true
+Qwen3 VL 235B A22B (Reasoning),Qwen3 VL 235B A22B,qwen3-vl-235b-a22b-reasoning,Alibaba,#ff7018,true,2025-09-23,27.64,427.9287404,68.5185788,333.8116824,25.5984792,42786924,true,Large,true
+Qwen3 Max,Qwen3 Max,qwen3-max,Alibaba,#ff7018,false,2025-09-23,31.38,196.59951,120.617784,0,75.981726,12663621,false,Large,true
+GPT-5 Codex (high),GPT-5 Codex (high),gpt-5-codex,OpenAI,#1f1f1f,true,2025-09-23,44.63,994.76608625,274.07762625,684.1135,36.57496,72068846,false,Large,true
+DeepSeek V3.2 Exp (Non-reasoning),DeepSeek V3.2 Exp,deepseek-v3-2-0925,DeepSeek,#2243e6,false,2025-09-29,28.44,46.02708998,41.84942409,0,4.17766589,10189429,true,Large,true
+DeepSeek V3.2 Exp (Reasoning),DeepSeek V3.2 Exp,deepseek-v3-2-reasoning-0925,DeepSeek,#2243e6,true,2025-09-29,32.94,38.44568924,22.16005587,14.71588687,1.5697465,39721057,true,Large,true
+Claude 4.5 Sonnet (Non-reasoning),Claude 4.5 Sonnet,claude-4-5-sonnet,Anthropic,#cc785c,false,2025-09-29,37.14,826.79218875,708.65298375,0,118.139205,7875947,false,Large,true
+Claude 4.5 Sonnet (Reasoning),Claude 4.5 Sonnet,claude-4-5-sonnet-thinking,Anthropic,#cc785c,true,2025-09-29,43.03,1584.7284825,629.7107475,843.48084,111.536895,63667849,false,Large,true
+GLM-4.6 (Non-reasoning),GLM-4.6,glm-4-6,Z AI,#1c7ff8,false,2025-09-30,30.24,111.1159132,91.936608,0,19.1793052,8717866,true,Large,true
+GLM-4.6 (Reasoning),GLM-4.6,glm-4-6-reasoning,Z AI,#1c7ff8,true,2025-09-30,32.51,150.92186701,50.98602493,91.40352762,8.53231446,57434392,true,Large,true
+Qwen3 VL 30B A3B Instruct,Qwen3 VL 30B A3B,qwen3-vl-30b-a3b-instruct,Alibaba,#ff7018,false,2025-10-03,16.05,120.7545826,104.192713,0,16.5618696,20702337,true,Small,true
+Qwen3 VL 30B A3B (Reasoning),Qwen3 VL 30B A3B,qwen3-vl-30b-a3b-reasoning,Alibaba,#ff7018,true,2025-10-03,19.68,156.746494,54.1798396,90.0373656,12.5292888,42736106,true,Small,true
+Qwen3 VL 8B Instruct,Qwen3 VL 8B,qwen3-vl-8b-instruct,Alibaba,#ff7018,false,2025-10-14,14.3,72.73489158,54.35454708,0,18.3803445,26257635,true,Small,true
+Qwen3 VL 8B (Reasoning),Qwen3 VL 8B,qwen3-vl-8b-reasoning,Alibaba,#ff7018,true,2025-10-14,16.66,148.4810442,51.1056612,88.4408385,8.9345445,46369230,true,Small,true
+Claude 4.5 Haiku (Non-reasoning),Claude 4.5 Haiku,claude-4-5-haiku,Anthropic,#cc785c,false,2025-10-15,31.05,246.0135025,204.5049075,0,41.508595,8301719,false,Large,false
+Claude 4.5 Haiku (Reasoning),Claude 4.5 Haiku,claude-4-5-haiku-reasoning,Anthropic,#cc785c,true,2025-10-15,37.09,619.68848875,183.26882875,396.46894,39.95072,87283932,false,Large,false
+Qwen3 VL 32B Instruct,Qwen3 VL 32B,qwen3-vl-32b-instruct,Alibaba,#ff7018,false,2025-10-21,17.19,275.3600717,234.0255617,0,41.33451,14762325,true,Small,true
+Qwen3 VL 32B (Reasoning),Qwen3 VL 32B,qwen3-vl-32b-reasoning,Alibaba,#ff7018,true,2025-10-21,24.72,971.5924155,133.9414587,787.8515316,49.7994252,99720352,true,Small,true
+MiniMax-M2,MiniMax-M2,minimax-m2,MiniMax,#EB3568,true,2025-10-26,36.09,115.7639499,34.7622771,74.0256432,6.9760296,67501394,true,Large,true
+NVIDIA Nemotron Nano 12B v2 VL (Non-reasoning),NVIDIA Nemotron Nano 12B v2 VL,nvidia-nemotron-nano-12b-v2-vl,NVIDIA,#86b737,false,2025-10-28,10.09,78.5458364,73.887653,0,4.6581834,7763639,true,Small,false
+Nova 2.0 Lite (Non-reasoning),Nova 2.0 Lite,nova-2-0-lite,Amazon,#FF9900,false,2025-10-29,18.03,411.0077043,245.6973768,0,165.3103275,66124131,false,Medium,false
+Nova 2.0 Lite (low),Nova 2.0 Lite (low),nova-2-0-lite-reasoning-low,Amazon,#FF9900,true,2025-10-29,24.59,72.957347,24.082347,42.0918175,6.7831825,19550000,false,Medium,false
+Nova 2.0 Lite (medium),Nova 2.0 Lite (medium),nova-2-0-lite-reasoning-medium,Amazon,#FF9900,true,2025-10-29,29.73,182.8802508,27.9850383,144.3827375,10.512475,61958085,false,Medium,false
+Qwen3 Max Thinking (Preview),Qwen3 Max Thinking (Preview),qwen3-max-thinking-preview,Alibaba,#ff7018,true,2025-11-03,32.48,293.3531112,110.6064372,134.370648,48.376026,30457779,false,Large,true
+Kimi K2 Thinking,Kimi K2 Thinking,kimi-k2-thinking,Kimi,#047AFE,true,2025-11-06,40.89,911.4889755,111.4043755,761.587584,38.497016,100010575,true,Large,true
+KAT-Coder-Pro V1,KAT-Coder-Pro V1,kat-coder-pro-v1,KwaiKAT,#489034,false,2025-11-11,36.03,76.1631096,70.7395272,0,5.4235824,4519652,false,Medium,false
+GPT-5.1 (high),GPT-5.1 (high),gpt-5-1,OpenAI,#1f1f1f,true,2025-11-13,47.7,778.97169875,92.29653875,635.16704,51.50812,68667516,false,Large,true
+GPT-5.1 (Non-reasoning),GPT-5.1,gpt-5-1-non-reasoning,OpenAI,#1f1f1f,false,2025-11-13,27.42,94.73182625,55.94547625,0,38.78635,3878635,false,Large,true
+GPT-5.1 Codex mini (high),GPT-5.1 Codex mini (high),gpt-5-1-codex-mini,OpenAI,#1f1f1f,true,2025-11-13,38.63,201.59733875,52.15717875,144.469926,4.970234,74720080,false,Medium,true
+GPT-5.1 Codex (high),GPT-5.1 Codex (high),gpt-5-1-codex,OpenAI,#1f1f1f,true,2025-11-13,43.11,891.9696675,324.5673875,537.40615,29.99613,56740228,false,Large,true
+Gemini 3 Pro Preview (low),Gemini 3 Pro Preview (low),gemini-3-pro-low,Google,#34A853,true,2025-11-18,41.3,354.970548,158.392416,48.913128,147.665004,16381511,false,Large,false
+Gemini 3 Pro Preview (high),Gemini 3 Pro Preview (high),gemini-3-pro,Google,#34A853,true,2025-11-18,48.39,819.837266,150.83459,609.189528,59.813148,55750223,false,Large,true
+Grok 4.1 Fast (Non-reasoning),Grok 4.1 Fast,grok-4-1-fast,xAI,#736cd3,false,2025-11-19,23.56,21.3717398,19.1538448,0,2.217895,4435790,false,Medium,false
+Grok 4.1 Fast (Reasoning),Grok 4.1 Fast,grok-4-1-fast-reasoning,xAI,#736cd3,true,2025-11-19,38.61,39.6209425,13.319397,24.900536,1.4010095,52603091,false,Medium,false
+Claude Opus 4.5 (Non-reasoning),Claude Opus 4.5,claude-opus-4-5,Anthropic,#cc785c,false,2025-11-24,43.09,1391.749725,1194.943125,0,196.8066,7872264,false,Large,true
+Claude Opus 4.5 (Reasoning),Claude Opus 4.5,claude-opus-4-5-thinking,Anthropic,#cc785c,true,2025-11-24,49.73,2968.690525,1171.79735,1606.174625,190.71855,71875727,false,Large,true
+Nova 2.0 Pro Preview (low),Nova 2.0 Pro Preview (low),nova-2-0-pro-reasoning-low,Amazon,#FF9900,true,2025-11-27,31.9,204.69044125,79.35904125,98.58156,26.74984,12533140,false,Large,false
+Nova 2.0 Pro Preview (Non-reasoning),Nova 2.0 Pro Preview,nova-2-0-pro,Amazon,#FF9900,false,2025-11-27,23.06,1300.09755,864.85711,0,435.24044,43524044,false,Large,false
+Nova 2.0 Pro Preview (medium),Nova 2.0 Pro Preview (medium),nova-2-0-pro-reasoning-medium,Amazon,#FF9900,true,2025-11-27,35.71,466.55137,106.30236,328.39797,31.85104,36024901,false,Large,false
+DeepSeek V3.2 (Non-reasoning),DeepSeek V3.2,deepseek-v3-2,DeepSeek,#2243e6,false,2025-12-01,32.09,242.46696507,214.22474112,0,28.24222395,15266067,true,Large,true
+DeepSeek V3.2 (Reasoning),DeepSeek V3.2,deepseek-v3-2-reasoning,DeepSeek,#2243e6,true,2025-12-01,41.71,178.3574283,80.0604875,91.6205216,6.6764192,61435588,true,Large,true
+Mistral Large 3,Mistral Large 3,mistral-large-3,Mistral,#fd6f00,false,2025-12-02,22.8,38.673735,30.8786265,0,7.7951085,5196739,true,Large,false
+Ministral 3 3B,Ministral 3 3B,ministral-3-3b,Mistral,#fd6f00,false,2025-12-02,11.24,15.9313934,14.3768941,0,1.5544993,15544993,true,Tiny,false
+Ministral 3 8B,Ministral 3 8B,ministral-3-8b,Mistral,#fd6f00,false,2025-12-02,14.84,21.44948115,19.4431377,0,2.00634345,13375623,true,Small,false
+Ministral 3 14B,Ministral 3 14B,ministral-3-14b,Mistral,#fd6f00,false,2025-12-02,15.98,23.191633,21.04079,0,2.150843,10754215,true,Small,false
+GLM-4.6V (Non-reasoning),GLM-4.6V,glm-4-6v,Z AI,#1c7ff8,false,2025-12-08,17.1,61.1594271,55.3577616,0,5.8016655,6446295,true,Medium,true
+GLM-4.6V (Reasoning),GLM-4.6V,glm-4-6v-reasoning,Z AI,#1c7ff8,true,2025-12-08,23.42,185.4748722,104.3817393,69.3416268,11.7515061,90103481,true,Medium,true
+GPT-5.2 (Non-reasoning),GPT-5.2,gpt-5-2-non-reasoning,OpenAI,#1f1f1f,false,2025-12-11,33.57,225.43901275,172.07385475,0,53.365158,3811797,false,Large,true
+GPT-5.2 (medium),GPT-5.2 (medium),gpt-5-2-medium,OpenAI,#1f1f1f,true,2025-12-11,46.64,699.64770575,399.15520575,232.458968,68.033532,21463750,false,Large,true
+GPT-5.2 Codex (xhigh),GPT-5.2 Codex (xhigh),gpt-5-2-codex,OpenAI,#1f1f1f,true,2025-12-11,49.03,3244.326456,421.09179,2777.049926,46.18474,201659619,false,Large,true
+GPT-5.2 (xhigh),GPT-5.2 (xhigh),gpt-5-2,OpenAI,#1f1f1f,true,2025-12-11,51.28,2304.2196695,489.5360155,1750.16695,64.516704,129620261,false,Large,true
+NVIDIA Nemotron 3 Nano 30B A3B (Non-reasoning),NVIDIA Nemotron 3 Nano,nvidia-nemotron-3-nano-30b-a3b,NVIDIA,#86b737,false,2025-12-15,13.17,13.73289455,11.18759215,0,2.5453024,12726512,true,Small,false
+NVIDIA Nemotron 3 Nano 30B A3B (Reasoning),NVIDIA Nemotron 3 Nano,nvidia-nemotron-3-nano-30b-a3b-reasoning,NVIDIA,#86b737,true,2025-12-15,24.27,45.90123306,11.47711602,33.82389528,0.60022176,143433821,true,Small,false
+MiMo-V2-Flash (Non-reasoning),MiMo-V2-Flash,mimo-v2-flash,Xiaomi,#ff6900,false,2025-12-16,30.35,21.3815107,16.3434958,0,5.0380149,16793383,true,Large,false
+MiMo-V2-Flash (Reasoning),MiMo-V2-Flash,mimo-v2-flash-reasoning,Xiaomi,#ff6900,true,2025-12-16,39.24,47.486,18.06497,28.2039822,1.2170478,98070100,true,Large,true
+MiMo-V2-Flash (Feb 2026),MiMo-V2-Flash (Feb 2026),mimo-v2-0206,Xiaomi,#ff6900,true,2025-12-16,41.46,66.5448105,39.0543468,25.8679635,1.6225002,91634879,true,Large,false
+Gemini 3 Flash Preview (Non-reasoning),Gemini 3 Flash,gemini-3-flash,Google,#34A853,false,2025-12-17,35.05,65.979814,53.693818,0,12.285996,4095332,false,Large,false
+Gemini 3 Flash Preview (Reasoning),Gemini 3 Flash,gemini-3-flash-reasoning,Google,#34A853,true,2025-12-17,46.43,278.260455,62.20251,203.428533,12.629412,72019315,false,Large,false
+GLM-4.7 (Non-reasoning),GLM-4.7,glm-4-7-non-reasoning,Z AI,#1c7ff8,false,2025-12-22,34.16,147.1413482,118.2148506,0,28.9264976,13148408,true,Large,true
+GLM-4.7 (Reasoning),GLM-4.7,glm-4-7,Z AI,#1c7ff8,true,2025-12-22,42.11,478.0703998,109.584933,353.5828802,14.9025866,167493394,true,Large,true
+MiniMax-M2.1,MiniMax-M2.1,minimax-m2-1,MiniMax,#EB3568,true,2025-12-23,39.42,114.4574499,44.3783631,61.2579852,8.8211016,58399239,true,Large,true
+GLM-4.7-Flash (Non-reasoning),GLM-4.7-Flash,glm-4-7-flash-non-reasoning,Z AI,#1c7ff8,false,2026-01-19,22.07,22.19086586,14.27396866,0,7.9168972,19792243,true,Small,true
+GLM-4.7-Flash (Reasoning),GLM-4.7-Flash,glm-4-7-flash,Z AI,#1c7ff8,true,2026-01-19,30.15,40.01241694,14.44552774,22.3923452,3.174544,63917223,true,Small,true
+Qwen3 Max Thinking,Qwen3 Max Thinking,qwen3-max-thinking,Alibaba,#ff7018,true,2026-01-26,39.85,668.5366992,154.5318072,475.560252,38.44464,85667482,false,Large,true
+Kimi K2.5 (Non-reasoning),Kimi K2.5,kimi-k2-5-non-reasoning,Kimi,#047AFE,false,2026-01-27,37.27,141.1166502,102.7415442,0,38.375106,12791702,true,Large,false
+Kimi K2.5 (Reasoning),Kimi K2.5,kimi-k2-5,Kimi,#047AFE,true,2026-01-27,46.81,370.6563216,104.7404676,245.513097,20.402757,88638618,true,Large,true
+Step 3.5 Flash,Step 3.5 Flash,step-3-5-flash-0202,StepFun,#017AFF,true,2026-02-02,37.8,74.8008061,13.9590046,59.0965995,1.745202,202806005,true,Large,true
+Qwen3 Coder Next,Qwen3 Coder Next,qwen3-coder-next,Alibaba,#ff7018,false,2026-02-03,28.28,60.8162216,39.9773568,0,20.8388648,26048581,true,Medium,false
+"Claude Opus 4.6 (Non-reasoning, High Effort)",Claude Opus 4.6 (high),claude-opus-4-6,Anthropic,#cc785c,false,2026-02-05,46.46,1745.70651875,1473.32869375,0,272.377825,10895113,false,Large,true
+"Claude Opus 4.6 (Adaptive Reasoning, Max Effort)",Claude Opus 4.6 (max),claude-opus-4-6-adaptive,Anthropic,#cc785c,true,2026-02-05,52.95,5231.08506875,1307.01821875,3718.2254,205.84145,156962674,false,Large,true
+GPT-5.3 Codex (xhigh),GPT-5.3 Codex (xhigh),gpt-5-3-codex,OpenAI,#1f1f1f,true,2026-02-05,53.56,1571.55544525,486.55870725,1026.3428,58.653938,77499767,false,Large,false
+GLM-5 (Non-reasoning),GLM-5,glm-5-non-reasoning,Z AI,#1c7ff8,false,2026-02-11,40.57,229.3823126,189.5604977,0,39.8218149,12641846,true,Large,false
+GLM-5 (Reasoning),GLM-5,glm-5,Z AI,#1c7ff8,true,2026-02-11,49.77,547.0392278,197.209375,326.5144448,23.315408,109321829,true,Large,false
+MiniMax-M2.5,MiniMax-M2.5,minimax-m2-5,MiniMax,#EB3568,true,2026-02-12,41.93,124.5803496,57.0714912,61.1824476,6.3264108,56257382,true,Large,true
+Qwen3.5 397B A17B (Non-reasoning),Qwen3.5 397B A17B,qwen3-5-397b-a17b-non-reasoning,Alibaba,#ff7018,false,2026-02-16,40.1,186.3738378,114.2469666,0,72.1268712,20035242,true,Large,false
+Qwen3.5 397B A17B (Reasoning),Qwen3.5 397B A17B,qwen3-5-397b-a17b,Alibaba,#ff7018,true,2026-02-16,45.05,417.5444688,108.1566456,286.849116,22.5387072,85941062,true,Large,false
+"Claude Sonnet 4.6 (Non-reasoning, Low Effort)","Claude Sonnet 4.6 (Non-reasoning, Low Effort)",claude-sonnet-4-6-non-reasoning-low-effort,Anthropic,#cc785c,false,2026-02-17,42.6,665.99552625,557.55557625,0,108.43995,7229330,false,Large,false
+"Claude Sonnet 4.6 (Non-reasoning, High Effort)",Claude Sonnet 4.6 (Non-reasoning),claude-sonnet-4-6,Anthropic,#cc785c,false,2026-02-17,44.38,1694.193465,1487.818845,0,206.37462,13758308,false,Large,false
+"Claude Sonnet 4.6 (Adaptive Reasoning, Max Effort)",Claude Sonnet 4.6 (max),claude-sonnet-4-6-adaptive,Anthropic,#cc785c,true,2026-02-17,51.72,4206.1050075,1233.7266225,2804.97243,167.405955,198158559,false,Large,false
+Gemini 3.1 Pro Preview,Gemini 3.1 Pro Preview,gemini-3-1-pro-preview,Google,#34A853,true,2026-02-19,57.18,892.283804,204.778352,635.767272,51.73818,57292121,false,Large,false
+Mercury 2,Mercury 2,mercury-2,Inception,#021B30,true,2026-02-20,32.82,80.68276725,28.49598375,48.79241925,3.39436425,69582378,false,Medium,false
+Qwen3.5 122B A10B (Reasoning),Qwen3.5 122B A10B,qwen3-5-122b-a10b,Alibaba,#ff7018,true,2026-02-24,41.6,353.942218,61.6578308,263.018,29.2663872,91338871,true,Medium,false
+Qwen3.5 35B A3B (Non-reasoning),Qwen3.5 35B A3B,qwen3-5-35b-a3b-non-reasoning,Alibaba,#ff7018,false,2026-02-24,30.69,125.607107,52.457601,0,73.149506,36574753,true,Small,false
+Qwen3.5 122B A10B (Non-reasoning),Qwen3.5 122B A10B,qwen3-5-122b-a10b-non-reasoning,Alibaba,#ff7018,false,2026-02-24,35.87,166.3749992,72.4625256,0,93.9124736,29347648,true,Medium,false
+Qwen3.5 35B A3B (Reasoning),Qwen3.5 35B A3B,qwen3-5-35b-a3b,Alibaba,#ff7018,true,2026-02-24,37.12,301.69722,100.739836,179.82454,21.132844,100478692,true,Small,true
+Qwen3.5 27B (Non-reasoning),Qwen3.5 27B,qwen3-5-27b-non-reasoning,Alibaba,#ff7018,false,2026-02-24,37.18,123.346389,63.1193874,0,60.2270016,25094584,true,Small,true
+Qwen3.5 27B (Reasoning),Qwen3.5 27B,qwen3-5-27b,Alibaba,#ff7018,true,2026-02-24,42.07,299.2610907,64.3938411,210.2899224,24.5773272,97861354,true,Small,true
+LFM2 24B A2B,LFM2 24B A2B,lfm2-24b-a2b,Liquid AI,#000000,false,2026-02-25,10.49,8.78229597,7.43807421,0,1.34422176,11201848,true,Small,false
+Qwen3.5 4B (Non-reasoning),Qwen3.5 4B,qwen3-5-4b-non-reasoning,Alibaba,#ff7018,false,2026-03-02,22.6,26.21777523,14.94749598,0,11.27027925,75135195,true,Small,false
+Qwen3.5 0.8B (Non-reasoning),Qwen3.5 0.8B,qwen3-5-0-8b-non-reasoning,Alibaba,#ff7018,false,2026-03-02,9.91,6.67358978,1.60054123,0,5.07304855,101460971,true,Tiny,false
+Qwen3.5 2B (Non-reasoning),Qwen3.5 2B,qwen3-5-2b-non-reasoning,Alibaba,#ff7018,false,2026-03-02,14.67,13.34933808,3.32991548,0,10.0194226,100194226,true,Tiny,false
+Qwen3.5 4B (Reasoning),Qwen3.5 4B,qwen3-5-4b,Alibaba,#ff7018,true,2026-03-02,27.08,44.87134005,9.3666015,34.24223475,1.2625038,236698257,true,Small,false
+Qwen3.5 9B (Reasoning),Qwen3.5 9B,qwen3-5-9b,Alibaba,#ff7018,true,2026-03-02,32.43,82.0595523,51.7881651,28.5075822,1.763805,201809248,true,Small,false
+Gemini 3.1 Flash-Lite Preview,Gemini 3.1 Flash-Lite Preview,gemini-3-1-flash-lite-preview,Google,#34A853,true,2026-03-03,33.52,93.601058,14.770811,74.8593585,3.9708885,52553498,false,Medium,false
+GPT-5.4 (xhigh),GPT-5.4 (xhigh),gpt-5-4,OpenAI,#1f1f1f,true,2026-03-05,56.8,2851.0114375,1042.3252375,1717.410855,91.275345,120579080,false,Large,true
+GPT-5.4 (Non-reasoning),GPT-5.4 (Non-reasoning),gpt-5-4-non-reasoning,OpenAI,#1f1f1f,false,2026-03-05,35.39,271.74131,212.968235,0,58.773075,3918205,false,Large,false
+GPT-5.4 (low),GPT-5.4 (low),gpt-5-4-low,OpenAI,#1f1f1f,true,2026-03-05,47.94,413.36813,265.2761,104.280105,43.811925,9872802,false,Large,false
+Grok 4.20 0309 (Non-reasoning),Grok 4.20 0309,grok-4-20-0309-non-reasoning,xAI,#736cd3,false,2026-03-10,29.69,382.344676,200.15251,0,182.192166,30365361,false,Large,true
+Grok 4.20 0309 (Reasoning),Grok 4.20 0309,grok-4-20-0309,xAI,#736cd3,true,2026-03-10,48.48,484.421726,158.277836,305.801778,20.342112,54357315,false,Large,true
+NVIDIA Nemotron 3 Super 120B A12B (Reasoning),NVIDIA Nemotron 3 Super,nvidia-nemotron-3-super-120b-a12b,NVIDIA,#86b737,true,2026-03-11,35.97,124.7844992,41.6169768,77.9968752,5.1706472,103959403,true,Medium,false
+Mistral Small 4 (Reasoning),Mistral Small 4,mistral-small-4,Mistral,#fd6f00,true,2026-03-16,27.8,47.88473685,16.17565125,29.2129062,2.4961794,52848476,true,Medium,false
+Mistral Small 4 (Non-reasoning),Mistral Small 4,mistral-small-4-non-reasoning,Mistral,#fd6f00,false,2026-03-16,18.62,16.36554375,14.02735875,0,2.338185,3896975,true,Medium,false
+GPT-5.4 mini (xhigh),GPT-5.4 mini (xhigh),gpt-5-4-mini,OpenAI,#1f1f1f,true,2026-03-17,48.9,1353.86635725,294.84563625,1036.382805,22.637916,235337938,false,Large,false
+GPT-5.4 mini (Non-Reasoning),GPT-5.4 mini,gpt-5-4-mini-non-reasoning,OpenAI,#1f1f1f,false,2026-03-17,23.28,56.358198,45.3412395,0,11.0169585,2448213,false,Large,false
+GPT-5.4 nano (Non-Reasoning),GPT-5.4 nano,gpt-5-4-nano-non-reasoning,OpenAI,#1f1f1f,false,2026-03-17,24.36,23.55092945,18.9097582,0,4.64117125,3712937,false,Medium,false
+GPT-5.4 mini (medium),GPT-5.4 mini (medium),gpt-5-4-mini-medium,OpenAI,#1f1f1f,true,2026-03-17,37.73,302.29139025,143.42030325,143.3535885,15.5174985,35304686,false,Large,false
+GPT-5.4 nano (medium),GPT-5.4 nano,gpt-5-4-nano-medium,OpenAI,#1f1f1f,true,2026-03-17,38.11,90.5669553,57.3931178,26.54327375,6.63056375,26539070,false,Medium,false
+GPT-5.4 nano (xhigh),GPT-5.4 nano (xhigh),gpt-5-4-nano,OpenAI,#1f1f1f,true,2026-03-17,43.98,364.18112805,102.9319418,252.76821125,8.480975,208999349,false,Medium,false
+MiMo-V2-Pro,MiMo-V2-Pro,mimo-v2-pro,Xiaomi,#ff6900,true,2026-03-18,49.2,350.865457,119.53261,211.695939,19.636908,77110949,false,Large,true
+MiniMax-M2.7,MiniMax-M2.7,minimax-m2-7,MiniMax,#EB3568,true,2026-03-18,49.62,175.5065994,71.1905502,94.2240792,10.09197,86930041,true,Large,false
+KAT Coder Pro V2,KAT-Coder-Pro V2,kat-coder-pro-v2,KwaiKAT,#489034,false,2026-03-27,43.83,73.4940528,63.064536,0,10.4295168,8691264,false,Medium,false
+MiMo-V2-Omni-0327,MiMo-V2-Omni-0327,mimo-v2-omni-0327,Xiaomi,#ff6900,true,2026-03-27,44.93,218.1398476,45.1230976,158.367312,14.649438,86508375,false,Medium,false
+Qwen3.5 Omni Flash,Qwen3.5 Omni Flash,qwen3-5-omni-flash,Alibaba,#ff7018,false,2026-03-30,25.87,38.8015555,23.2510699,0,15.5504856,19438107,false,Medium,false
+Qwen3.5 Omni Plus,Qwen3.5 Omni Plus,qwen3-5-omni-plus,Alibaba,#ff7018,false,2026-03-30,38.63,149.7273984,74.7321888,0,74.9952096,15624002,false,Large,false
+Trinity Large Thinking,Trinity Large Thinking,trinity-large-thinking,Arcee AI,#008c8d,true,2026-04-01,31.87,181.378925,42.0883685,133.0289802,6.2615763,154767285,true,Large,false
+Gemma 4 26B A4B (Reasoning),Gemma 4 26B A4B,gemma-4-26b-a4b,Google,#34A853,true,2026-04-02,31.21,31.3700019,9.484221,19.9388331,1.9469478,72952603,true,Small,false
+Qwen3.6 Plus,Qwen3.6 Plus,qwen3-6-plus,Alibaba,#ff7018,true,2026-04-02,49.98,482.650482,178.792998,256.796217,47.061267,101285828,false,Large,false
+Grok 4.20 0309 v2 (Non-reasoning),Grok 4.20 0309 v2,grok-4-20-non-reasoning,xAI,#736cd3,false,2026-04-07,28.99,425.944948,209.708998,0,216.23595,36039325,false,Large,false
+GLM-5.1 (Non-reasoning),GLM-5.1,glm-5-1-non-reasoning,Z AI,#1c7ff8,false,2026-04-07,43.82,617.5646028,284.112486,0,333.4521168,75784572,true,Large,false
+Grok 4.20 0309 v2 (Reasoning),Grok 4.20 0309 v2,grok-4-20,xAI,#736cd3,true,2026-04-07,49.33,514.159296,148.504938,334.59984,31.054518,60942393,false,Large,true
+Qwen3.6 35B A3B (Non-reasoning),Qwen3.6 35B A3B,qwen3-6-35b-a3b-non-reasoning,Alibaba,#ff7018,false,2026-04-16,31.53,189.458331,134.74865175,0,54.70967925,24315413,true,Small,false
+Qwen3.6 35B A3B (Reasoning),Qwen3.6 35B A3B,qwen3-6-35b-a3b,Alibaba,#ff7018,true,2026-04-16,43.49,279.6819614,67.04670774,195.60969896,17.0255547,143188723,true,Small,false
+"Claude Opus 4.7 (Non-reasoning, High Effort)","Claude Opus 4.7 (Non-reasoning, high)",claude-opus-4-7-non-reasoning,Anthropic,#cc785c,false,2026-04-16,51.82,1217.22764375,928.34859375,0,288.87905,11555162,false,Large,false
+"Claude Opus 4.7 (Adaptive Reasoning, Max Effort)",Claude Opus 4.7 (max),claude-opus-4-7,Anthropic,#cc785c,true,2026-04-16,57.28,5117.1422125,2318.7325625,2319.039075,479.370575,111936386,false,Large,false
+Kimi K2.6,Kimi K2.6,kimi-k2-6,Kimi,#047AFE,true,2026-04-20,53.9,947.86803085,285.68027885,626.127784,36.059968,165546938,true,Large,false
+Kimi K2.6 (Non-reasoning),Kimi K2.6,kimi-k2-6-non-reasoning,Kimi,#047AFE,false,2026-04-20,42.95,504.6224139,395.9902499,0,108.632164,27158041,true,Large,false
+Qwen3.6 Max Preview,Qwen3.6 Max Preview,qwen3-6-max,Alibaba,#ff7018,true,2026-04-20,51.81,860.5645893,284.5324677,508.8218694,67.2102522,73850272,false,Large,false
+MiMo-V2.5-Pro (Non-reasoning),MiMo-V2.5-Pro,mimo-v2-5-pro-non-reasoning,Xiaomi,#ff6900,false,2026-04-22,35.59,562.7665528,494.6344,0,68.1321528,28388397,true,Large,false
+Qwen3.6 27B (Non-reasoning),Qwen3.6 27B,qwen3-6-27b-non-reasoning,Alibaba,#ff7018,false,2026-04-22,37.14,234.3516366,154.0656606,0,80.285976,22301660,true,Small,false
+Qwen3.6 27B (Reasoning),Qwen3.6 27B,qwen3-6-27b,Alibaba,#ff7018,true,2026-04-22,45.82,658.6691916,138.5489712,484.0075908,36.1126296,144477839,true,Small,false
+MiMo-V2.5,MiMo-V2.5,mimo-v2-5-0424,Xiaomi,#ff6900,true,2026-04-22,49.03,184.11701312,65.05319072,104.447536,14.6162864,74414889,true,Large,false
+MiMo-V2.5-Pro,MiMo-V2.5-Pro,mimo-v2-5-pro,Xiaomi,#ff6900,true,2026-04-22,53.83,461.591176,185.899606,247.210011,28.481559,91897190,true,Large,false
+GPT-5.5 (Non-reasoning),GPT-5.5 (Non-reasoning),gpt-5-5-non-reasoning,OpenAI,#1f1f1f,false,2026-04-23,40.94,360.69161,275.67419,0,85.01742,2833914,false,Large,false
+GPT-5.5 (low),GPT-5.5 (low),gpt-5-5-low,OpenAI,#1f1f1f,true,2026-04-23,50.78,500.673275,290.403575,140.41377,69.85593,7008990,false,Large,false
+GPT-5.5 (medium),GPT-5.5 (medium),gpt-5-5-medium,OpenAI,#1f1f1f,true,2026-04-23,56.71,1199.14115,525.37916,543.35151,130.41048,22458733,false,Large,false
+GPT-5.5 (high),GPT-5.5 (high),gpt-5-5-high,OpenAI,#1f1f1f,true,2026-04-23,58.87,2159.380585,824.177155,1159.64244,175.56099,44506781,false,Large,false
+GPT-5.5 (xhigh),GPT-5.5 (xhigh),gpt-5-5,OpenAI,#1f1f1f,true,2026-04-23,60.24,3357.004735,1101.367675,2029.86228,225.77478,75187902,false,Large,false
+"DeepSeek V4 Flash (Reasoning, High Effort)",DeepSeek V4 Flash (High),deepseek-v4-flash-high,DeepSeek,#2243e6,true,2026-04-24,46,57.43175788,29.79106116,25.39186804,2.24882868,98716774,true,Large,false
+DeepSeek V4 Flash (Non-reasoning),DeepSeek V4 Flash,deepseek-v4-flash-non-reasoning,DeepSeek,#2243e6,false,2026-04-24,36.46,40.04883344,36.99301424,0,3.0558192,10913640,true,Large,false
+DeepSeek V4 Pro (Non-reasoning),DeepSeek V4 Pro,deepseek-v4-pro-non-reasoning,DeepSeek,#2243e6,false,2026-04-24,39.27,615.8715906,568.81300176,0,47.05858884,13522583,true,Large,false
+"DeepSeek V4 Flash (Reasoning, Max Effort)",DeepSeek V4 Flash (Max),deepseek-v4-flash,DeepSeek,#2243e6,true,2026-04-24,46.52,112.85661212,45.35958308,63.80290868,3.69412036,241060818,true,Large,false
+"DeepSeek V4 Pro (Reasoning, High Effort)",DeepSeek V4 Pro (High),deepseek-v4-pro-high,DeepSeek,#2243e6,true,2026-04-24,49.79,690.21686118,329.2320903,330.70740672,30.27736416,103731256,true,Large,false
+"DeepSeek V4 Pro (Reasoning, Max Effort)",DeepSeek V4 Pro (Max),deepseek-v4-pro,DeepSeek,#2243e6,true,2026-04-24,51.51,1071.2836002,419.88610248,613.59028356,37.80721416,187183189,true,Large,false
+Granite 4.1 8B,Granite 4.1 8B,granite-4-1-8b,IBM,#0f62fe,false,2026-04-29,12.38,7.48021735,7.08464045,0,0.3955769,3955769,true,Small,false
+Nemotron 3 Nano Omni 30B A3B Reasoning,Nemotron 3 Nano Omni 30B A3B Reasoning,nemotron-3-nano-omni-30b-a3b,NVIDIA,#86b737,true,2026-04-29,21.43,31.49342592,12.64417392,17.0203392,1.8289128,78538550,true,Small,false
+Mistral Medium 3.5,Mistral Medium 3.5,mistral-medium-3-5,Mistral,#fd6f00,true,2026-04-29,39.23,1000.9536615,326.3840415,621.7013325,52.8682875,89942616,true,Medium,false
+Grok 4.3,Grok 4.3,grok-4-3,xAI,#736cd3,true,2026-04-30,53.2,395.1716575,175.12262,200.4626375,19.5864,88019615,false,Large,false
+Grok 4.3 (Non-reasoning),Grok 4.3,grok-4-3-non-reasoning,xAI,#736cd3,false,2026-04-30,31.02,259.5239825,239.98489,0,19.5390925,7815637,false,Large,false

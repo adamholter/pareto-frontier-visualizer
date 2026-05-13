@@ -1,0 +1,12 @@
+{
+  "fetched_at": "2026-05-13T16:43:08.790Z",
+  "source_url": "https://artificialanalysis.ai/api/data/website/host-models/performance?prompt_length=10000&parallel_queries=1",
+  "source": "Artificial Analysis public website data route",
+  "source_note": "The documented free API is account/API-key based and does not expose every chart field. This script uses the public website data route, selects each model computed_performance_host_model_id, and computes cost_to_run from Intelligence Index token counts and current input/output pricing.",
+  "prompt_options": {
+    "parallel_queries": 1,
+    "prompt_length": 10000
+  },
+  "raw_host_model_count": 876,
+  "csv_row_count": 264
+}

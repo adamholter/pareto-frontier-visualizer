@@ -1,16 +1,16 @@
 # Pareto Frontier Visualizer
 
-Stop asking which model is best. Ask which one is worth its price.
+Stop asking which AI model is best. Ask which one is worth its price.
 
 ![Screenshot of the Pareto Frontier Visualizer showing the best model tradeoffs](./docs/pareto-frontier-social.png)
 
-This React + TypeScript app turns a plain CSV into a clean cost/performance map.
-It shows which models, tools, or products are currently Pareto-optimal across two
-dimensions: higher score and lower cost.
+This React + TypeScript app turns live Artificial Analysis website data into a
+clean cost/performance map. It shows which models are currently Pareto-optimal
+across two dimensions: higher Intelligence Index and lower cost to run the
+Artificial Analysis Intelligence Index.
 
-The included dataset is synthetic, but the pattern is deliberately generic. Swap
-in any CSV with a release date, cost metric, score metric, owner, and display
-color.
+The checked-in CSV is generated from Artificial Analysis' public website data
+route. Run `npm run data:fetch` to refresh it.
 
 ## What It Does
 
@@ -30,12 +30,18 @@ npm run dev
 
 Open the local Vite URL that appears in your terminal.
 
+`npm run dev` refreshes `src/data/pareto_intelligence_vs_cost.csv` from
+Artificial Analysis before starting Vite.
+
 ## Build And Check
 
 ```sh
+npm run data:fetch
 npm run lint
 npm run build
 ```
+
+`npm run build` also refreshes the CSV before compiling the app.
 
 ## Render The Video
 
@@ -46,6 +52,20 @@ npm run video:render
 
 The render command writes `out/pareto-frontier.mp4`. The `out/` directory is
 ignored by git.
+
+## Data Source
+
+The refresh script uses Artificial Analysis' public website data route because
+the documented free API is account/API-key based and does not expose every chart
+field used on the site. The script selects each model's
+`computed_performance_host_model_id`, then computes `cost_to_run` from the
+Artificial Analysis Intelligence Index token counts and current input/output
+pricing. It writes:
+
+- `src/data/pareto_intelligence_vs_cost.csv`
+- `src/data/artificial-analysis-meta.json`
+
+Attribution: data from [Artificial Analysis](https://artificialanalysis.ai/).
 
 ## Use Your Own Data
 
@@ -70,6 +90,6 @@ pricing.
 
 ## Included Data
 
-The included sample CSV is synthetic. If you replace it with data from a
-third-party source, keep that source's attribution and redistribution terms with
-your version.
+The included CSV is generated from Artificial Analysis data. If you replace it
+with data from a different third-party source, keep that source's attribution and
+redistribution terms with your version.

@@ -17,8 +17,9 @@
   ],
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
+    "data:fetch": "node scripts/fetch-artificial-analysis.mjs",
+    "dev": "npm run data:fetch && vite",
+    "build": "npm run data:fetch && tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "video:preview": "remotion preview src/remotion/index.ts",

@@ -129,8 +129,8 @@ function App() {
     <main className="shell">
       <header className="topbar">
         <div>
-          <p className="eyeline">Cost/performance map</p>
-          <h1>Find the models worth paying for</h1>
+          <p className="eyeline">Artificial Analysis cost/performance map</p>
+          <h1>AI models worth paying for</h1>
         </div>
         <div className="stats" aria-label="Current selection summary">
           <div>
